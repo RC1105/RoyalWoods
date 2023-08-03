@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1056840940019",
+    "project_id": "royalwoods-3d132",
+    "storage_bucket": "royalwoods-3d132.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056840940019:android:ef1d88c1c2e7de257f3a86",
+        "android_client_info": {
+          "package_name": "com.nppr.royal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056840940019-2oe7b692fo0dviclruldrul8p6j716ug.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nppr.royal",
+            "certificate_hash": "4551708bd535c8a4ec3611210880bcb27be59823"
+          }
+        },
+        {
+          "client_id": "1056840940019-1il3c6c6dvdejq5aee12easn534ttokc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZR081tWWs8rhITkz98jxU3D-k18jN87g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056840940019-1il3c6c6dvdejq5aee12easn534ttokc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

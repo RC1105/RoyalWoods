@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.nppr.royal.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_menu"
+        android:name="com.nppr.royal.MenuFragment"
+        android:label="Menu"
+        tools:layout="@layout/fragment_menu" />
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.nppr.royal.OrdersFragment"
+        android:label="Your Orders"
+        tools:layout="@layout/orders" />
+
+    <fragment
+        android:id="@+id/cartt"
+        android:name="com.nppr.royal.cartFragment"
+        android:label="Cart"
+        tools:layout="@layout/fragment_cart" />
+
+
+    <fragment
+        android:id="@+id/nav_signOut"
+        android:name="com.nppr.royal.signOutFragment"
+        android:label="Greetings from Royal Woods"
+        tools:layout="@layout/fragment_sign_out" />
+
+</navigation>
